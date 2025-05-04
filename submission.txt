@@ -1,0 +1,21 @@
+# Menjalankan skrip python
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+
+# Link Google Sheets:
+https://docs.google.com/spreadsheets/d/1Eel_eM720zmfTNOe9G0dbCmI_DbTO69OceaJVWLg4yA/edit?hl=id&gid=0#gid=0
+
+# Mengecek dirty patterns
+python check_dirty.py
+
+# Mengecek tipe data
+python check_data_type.py
+
+# Coverage web        
+Coverage html
+start htmlcov/index.html
